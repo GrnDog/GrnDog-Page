@@ -1,0 +1,56 @@
+h1 {
+    color:lime; text-align: center; font-size:300%;
+}
+h2 {
+    color:lime; text-align: center; font-size:225%; 
+    border-top: 2px solid lime; border-bottom: 2px solid lime;
+    padding: 20px; margin-top: 50px;
+}
+p {
+    color:white; font-size: 150%;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+table {
+    margin-left: 200px;
+    border: 3px double lime;
+    border-collapse: collapse;
+}
+th {
+    color:white; font-size: 150%; font-style: bold;
+    border: 1px solid lime;
+    padding: 5px;
+}
+td {
+    color:white; font-size: 150%;
+    border: 1px solid lime;
+    padding: 5px;
+}
+tr:hover {
+    background-color: darkgreen
+}
+hr {
+    height:2px; border:none; color:lime; background-color: lime;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+a:link {
+    color: greenyellow;
+}
+a:visited {
+    color: darkgreen;
+}
+a:hover {
+    color: lime;
+}
+a:active {
+    color:olive;
+}
+mark {
+    background-color: lime;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
