@@ -6,11 +6,13 @@ h2 {
     border-top: 2px solid lime; border-bottom: 2px solid lime;
     padding: 20px; margin-top: 50px;
 }
+
 p {
     color:white; font-size: 150%;
     margin-right: 100px;
     margin-left: 100px;
 }
+
 table {
     margin-left: 200px;
     border: 3px double lime;
@@ -29,12 +31,45 @@ td {
 tr:hover {
     background-color: darkgreen
 }
+
+ul {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid lime;
+    list-style-type: none;
+    font-size: 200%;
+    margin: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    border: 2px solid lime;
+}
+li a:visited {
+    color:white
+}
+li a:link {
+    color:white
+}
+li a:hover {
+    color:lime
+}
+
 hr {
     height:2px; border:none; color:lime; background-color: lime;
 }
+
 body {
     font-family: 'Courier New', Courier, monospace;
 }
+
 a:link {
     color: greenyellow;
 }
@@ -47,9 +82,11 @@ a:hover {
 a:active {
     color:olive;
 }
+
 mark {
     background-color: lime;
 }
+
 img {
     display: block;
     margin: 0 auto;
