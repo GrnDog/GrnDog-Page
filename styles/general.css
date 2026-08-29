@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Dream';
-    src: url('..\Fonts\DreamMMA.ttf') format('truetype');
+    src: url('../Fonts/DreamMMA.ttf');
 }
 
 body {
@@ -16,4 +16,9 @@ body {
     font-style: italic;
     font-weight: bold;
     color: darkgreen;
+}
+
+p {
+    color: white;
+    font-family: 'Dream';
 }
