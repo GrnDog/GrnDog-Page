@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Dream';
+    src: url('..\Fonts\DreamMMA.ttf') format('truetype');
+}
+
 body {
     background-color: black;
     margin-left: 0;
@@ -7,7 +12,7 @@ body {
 .header {
     background-color: lime;
     font-size: 2rem;
-    font-family: Cambria;
+    font-family: 'Dream', sans-serif;
     font-style: italic;
     font-weight: bold;
     color: darkgreen;
