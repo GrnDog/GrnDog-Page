@@ -18,5 +18,37 @@ body {
 }
 
 .logo {
+    display: block;
+    margin: auto;
+}
 
+.menu {
+    list-style-type: none;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    margin: 0;
+    border-bottom: 3px solid lime;
+}
+
+.menuitem a {
+    display: block;
+    color: lime;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.menuitem a:visited {
+    color: lime;
+}
+
+.menuitem a:hover {
+    background-color: lime;
+    color: black;
+}
+
+.menuitem a:active {
+    background-color: darkgreen;
+    color: black;
 }
