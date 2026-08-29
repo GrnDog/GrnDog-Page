@@ -1,24 +1,22 @@
 @font-face {
     font-family: 'Dream';
-    src: url('../Fonts/DreamMMA.ttf');
+    src: url('../Fonts/NFS_by_JLTV.ttf');
 }
 
 body {
     background-color: black;
+    color: white;
     margin-left: 0;
     margin-right: 0;
 }
 
-.header {
+.slide {
     background-color: lime;
     font-size: 2rem;
     font-family: 'Dream', sans-serif;
-    font-style: italic;
-    font-weight: bold;
     color: darkgreen;
 }
 
-p {
-    color: white;
-    font-family: 'Dream';
+.logo {
+
 }
