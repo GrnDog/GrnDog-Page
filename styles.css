@@ -93,9 +93,12 @@ img {
 }
 
 div {
+    border: 2px solid lime;
     background-color: darkgreen;
     color: white;
     font-size: 200%;
     text-align: center;
     padding-bottom: 100px;
+    width: 500px;
+    margin: auto;
 }
