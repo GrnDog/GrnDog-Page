@@ -1,6 +1,14 @@
 body {
     background-color: black;
+    margin-left: 0;
+    margin-right: 0;
 }
-p {
-    color: lime;
+
+.header {
+    background-color: lime;
+    font-size: 2rem;
+    font-family: Cambria;
+    font-style: italic;
+    font-weight: bold;
+    color: darkgreen;
 }
