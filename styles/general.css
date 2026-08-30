@@ -10,6 +10,18 @@ body {
     margin-right: 0;
 }
 
+footer {
+    border-top: 3px solid lime;
+    color: darkgreen;
+}
+
+.copyright {
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    width: 32rem;
+}
+
 .slide {
     background-color: lime;
     font-size: 2rem;
@@ -52,4 +64,14 @@ body {
 .menuitem a:active {
     background-color: darkgreen;
     color: black;
+}
+
+.products {
+    padding-left: 16rem;
+}
+
+.product img {
+    width: 24rem;
+    height: 32rem;
+    object-fit:cover;
 }
