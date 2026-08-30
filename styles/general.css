@@ -67,7 +67,15 @@ footer {
 }
 
 .products {
-    padding-left: 16rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    align-content: center; /*This is not centering*/
+}
+
+.product {
+    width: 26rem;
+    height: 40rem;
+    display: inline-block;
 }
 
 .product img {
