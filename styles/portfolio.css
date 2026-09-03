@@ -1,3 +1,23 @@
+body {
+    background-color: lightblue;
+}
+
+header {
+    height: 60rem;
+    text-align: center;
+    margin-top: 20rem;
+}
+
 .debug {
     outline: 1px solid red;
+}
+
+#name {
+    color: darkcyan;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.contacts {
+    color: rgb(15, 114, 114);
 }
