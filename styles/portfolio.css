@@ -1,15 +1,46 @@
 body {
     background-color: lightblue;
+    margin: 0;
 }
 
 header {
     height: 60rem;
-    text-align: center;
     margin-top: 20rem;
+    text-align: center;
+}
+
+main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(149, 208, 227);
+}
+
+h2 {
+    width: 30rem;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(15, 114, 114);
+}
+
+p {
+    width: 50rem;
+    margin: auto;
+    font-size: 1.25rem;
+    color: rgb(15, 114, 114);
 }
 
 .debug {
     outline: 1px solid red;
+}
+
+.about-me {
+    width: 60rem;
+    margin: auto;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    background-color: lightblue;
+    border-radius: 16px;
 }
 
 #name {
@@ -18,6 +49,3 @@ header {
     text-align: center;
 }
 
-.contacts {
-    color: rgb(15, 114, 114);
-}
