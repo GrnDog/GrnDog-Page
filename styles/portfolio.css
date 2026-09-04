@@ -15,12 +15,20 @@ main {
     background-color: rgb(149, 208, 227);
 }
 
-h2 {
-    width: 30rem;
+h2.top {
+    width: 40rem;
     margin: auto;
     text-align: center;
     font-size: 2rem;
     color: rgb(15, 114, 114);
+}
+
+h2.mid {
+    width: 40rem;
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(15, 84, 114);
 }
 
 p {
@@ -40,8 +48,20 @@ p {
     margin: auto;
     padding-bottom: 2rem;
     padding-top: 1rem;
+    margin-bottom: 4rem;
     background-color: lightblue;
     border-radius: 16px;
+}
+
+.lang-block {
+    background-color: rgb(128, 201, 226);
+    text-align: center;
+}
+
+.lang-list {
+    width: 40rem;
+    margin: auto;
+    text-align: left;
 }
 
 #name {
