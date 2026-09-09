@@ -19,6 +19,13 @@ main {
     background-color: rgb(149, 208, 227);
 }
 
+hr {
+    width: 60rem;
+    height: 2px;
+    background-color: rgb(4, 91, 91);
+    border: 0;
+}
+
 h2.top {
     width: 40rem;
     margin: auto;
@@ -138,6 +145,7 @@ caption.hobbies {
 
 #name {
     color: darkcyan;
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: center;
+    margin: 0;
 }
