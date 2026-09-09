@@ -37,8 +37,9 @@ h2.mid-lower {
     margin: auto;
     text-align: center;
     font-size: 3.5rem;
-    color: rgb(15, 84, 114);
+    color: lightblue;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 p {
@@ -66,6 +67,7 @@ p {
 .lang-block {
     background-color: rgb(128, 201, 226);
     text-align: center;
+    padding-bottom: 4rem;
 }
 
 .lang-list {
@@ -75,7 +77,6 @@ p {
     list-style-type: none;
     font-size: 1.5rem;
     color: rgb(15, 84, 114);
-    padding-bottom: 4rem;
     padding-top: 1rem;
     margin-top: 1rem;
 }
@@ -83,10 +84,10 @@ p {
 div.hobbies {
     padding-top: 1rem;
     padding-bottom: 2rem;
-    width: 50rem;
+    width: 70rem;
     margin: auto;
     background-color: rgb(53, 143, 172);
-    border-radius: 16px;
+    border-radius: 32px;
 }
 
 div.mid-lower {
@@ -100,12 +101,28 @@ table.hobbies {
     margin: auto;
     padding: 1rem;
     border-radius: 16px;
+    border-spacing: 1rem;
     color: lightblue;
 }
 
+img.hobbies {
+    width: 18rem;
+    height: 24rem;
+    object-fit: none;
+    border-radius: 16px;
+}
+
+th.hobbies {
+    font-size: 2rem;
+}
+
 td {
-    width: 12rem;
-    height: 18rem;
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+td:hover {
+    background-color: rgb(53, 143, 172);
 }
 
 caption.hobbies {
