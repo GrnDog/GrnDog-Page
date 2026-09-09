@@ -71,7 +71,21 @@ p {
     margin-top: 1rem;
 }
 
+div.hobbies {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
 
+table.hobbies {
+    background-color: cornflowerblue;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+caption.hobbies {
+    font-size: 4rem;
+}
 
 #name {
     color: darkcyan;
