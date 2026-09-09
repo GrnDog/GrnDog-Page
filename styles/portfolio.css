@@ -32,6 +32,15 @@ h2.mid {
     padding-top: 1rem;
 }
 
+h2.mid-lower {
+    width: 40rem;
+    margin: auto;
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(15, 84, 114);
+    padding-top: 1rem;
+}
+
 p {
     width: 50rem;
     margin: auto;
@@ -74,13 +83,29 @@ p {
 div.hobbies {
     padding-top: 1rem;
     padding-bottom: 2rem;
+    width: 50rem;
+    margin: auto;
+    background-color: rgb(53, 143, 172);
+    border-radius: 16px;
+}
+
+div.mid-lower {
+    background-color: rgb(82, 181, 214);
+    padding-bottom: 4rem;
+    padding-top: 2rem;
 }
 
 table.hobbies {
-    background-color: cornflowerblue;
+    background-color: rgb(24, 93, 116);
     margin: auto;
     padding: 1rem;
     border-radius: 16px;
+    color: lightblue;
+}
+
+td {
+    width: 12rem;
+    height: 18rem;
 }
 
 caption.hobbies {
@@ -92,4 +117,3 @@ caption.hobbies {
     font-size: 4rem;
     text-align: center;
 }
-
