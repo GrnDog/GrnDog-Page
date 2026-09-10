@@ -19,8 +19,8 @@ main {
 }
 
 footer {
-    padding-top: 4rem;
     background-color: rgb(24, 93, 116);
+    height: 50rem;
 }
 
 hr {
@@ -48,6 +48,16 @@ h2.mid {
 }
 
 h2.mid-lower {
+    width: 40rem;
+    margin: auto;
+    text-align: center;
+    font-size: 3.5rem;
+    color: lightblue;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h2.footer {
     width: 40rem;
     margin: auto;
     text-align: center;
