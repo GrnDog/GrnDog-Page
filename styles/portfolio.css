@@ -1,4 +1,4 @@
-.debg {
+.debug {
     outline: 1px solid red;
 }
 
@@ -8,15 +8,19 @@ body {
 }
 
 header {
-    height: 60rem;
-    margin-top: 20rem;
+    height: 65rem;
+    margin-top: 30rem;
     text-align: center;
 }
 
 main {
     padding-top: 2rem;
-    padding-bottom: 2rem;
     background-color: rgb(149, 208, 227);
+}
+
+footer {
+    padding-top: 4rem;
+    background-color: rgb(24, 93, 116);
 }
 
 hr {
@@ -74,11 +78,20 @@ p {
 .lang-block {
     background-color: rgb(128, 201, 226);
     text-align: center;
+    padding-top: 2rem;
     padding-bottom: 4rem;
 }
 
+div.lang-box {
+    background-color: rgb(149, 208, 227);
+    width: 62.5rem;
+    margin: auto;
+    border-radius: 24px;
+    padding-bottom: 2rem;
+}
+
 .lang-list {
-    width: 40rem;
+    width: fit-content;
     margin: auto;
     text-align: center;
     font-size: 1.5rem;
@@ -86,6 +99,16 @@ p {
     color: rgb(15, 84, 114);
     margin-top: 1rem;
     padding-left: 0;
+}
+
+li {
+    border-radius: 8px;
+    margin: 0.25rem;
+    padding: 0.1rem;
+}
+
+li:hover {
+    background-color: rgb(128, 201, 226);
 }
 
 img.lang {
@@ -139,13 +162,10 @@ td:hover {
     background-color: rgb(53, 143, 172);
 }
 
-caption.hobbies {
-    font-size: 4rem;
-}
-
 #name {
     color: darkcyan;
     font-size: 6rem;
     text-align: center;
-    margin: 0;
+    margin: auto;
+    width: fit-content;
 }
