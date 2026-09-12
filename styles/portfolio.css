@@ -71,6 +71,7 @@ h2.footer {
 
 p {
     width: 90%;
+    max-width: 50rem;
     margin: auto;
     margin-top: 1rem;
     font-size: 1.25rem;
